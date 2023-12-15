@@ -1,0 +1,107 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>Eccelerators Library IP specification</title><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="#d5e1" title="Eccelerators Library IP specification"><link rel="next" href="#Eccelerators-Library-IP-BusDividerIfc-composite" title="Chapter&nbsp;1.&nbsp;BusDividerIfc"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book"><div class="titlepage"><div><div><h1 class="title"><a name="d5e1"></a>Eccelerators Library IP specification</h1></div></div><hr></div>
+
+<div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a name="Eccelerators-Library-IP-BusDividerIfc-composite"></a>Chapter&nbsp;1.&nbsp;BusDividerIfc</h1></div></div></div>
+
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eccelerators.Library.IP.BusDividerIfc-composite"></a>Bus Divider Interface (BusDividerIfc)</h2></div></div></div><p>Interface containing a basic Bus Divider block.</p><div class="table"><a name="d5e8"></a><p class="title"><b>Table&nbsp;1.1.&nbsp;Blocks of Bus Divider Interface</b></p><div class="table-contents"><table summary="Blocks of Bus Divider Interface" border="1" width="100%"><colgroup><col width="59" class="col1"><col width="45" class="col2"><col width="595" class="col3"></colgroup><tbody><tr><td colspan="3">
+            <p>Blocks of Bus Divider Interface</p>
+          </td></tr><tr><td>
+            <p>Block Address</p>
+          </td><td>
+            <p>ID</p>
+          </td><td>
+            <p>Block Name</p>
+          </td></tr><tr><td>
+            <p>
+              <code class="code">0x000</code>
+            </p>
+          </td><td><a name="a3d3a674257f"></a>
+            <p>BusDividerBlk</p>
+          </td><td>
+            <p>
+              <a class="link" href="#aaf2956de603">Bus Divider Block</a>
+            </p>
+          </td></tr></tbody></table></div></div><br class="table-break"><p></p><div class="table"><a name="d5e35"></a><p class="title"><b>Table&nbsp;1.2.&nbsp;Resets of Bus Divider Interface</b></p><div class="table-contents"><table summary="Resets of Bus Divider Interface" border="1" width="100%"><colgroup><col width="59" class="col1"><col width="640" class="col2"></colgroup><tbody><tr><td colspan="2">
+            <p>Resets of Registers of Bus Divider Interface</p>
+          </td></tr><tr><td>
+            <p>ID</p>
+          </td><td>
+            <p>Reset Name</p>
+          </td></tr></tbody></table></div></div><br class="table-break"><p></p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="bus-divider-block-busdividerblk"></a>Bus Divider Block (BusDividerBlk)</h3></div></div></div><p>This block defines a basic bus divider e.g. to divide a bus into two busses by using HxS delegates.</p><p>Bus Divider details:</p><div class="figure"><a name="d5e54"></a><p class="title"><b>Figure&nbsp;1.1.&nbsp;Bus Catcher details</b></p><div class="figure-contents"><div class="mediaobject"><img src="resources/BusDivider.png" width="270" alt="Bus Catcher details"></div></div></div><br class="figure-break"><div class="table"><a name="d5e59"></a><p class="title"><b>Table&nbsp;1.3.&nbsp;Registers or Delegates of Bus Divider Block</b></p><div class="table-contents"><table summary="Registers or Delegates of Bus Divider Block" border="1" width="100%"><colgroup><col width="59" class="col1"><col width="42" class="col2"><col width="598" class="col3"></colgroup><tbody><tr><td colspan="3">
+              <p>Registers or Delegates of Bus Divider Block</p>
+            </td></tr><tr><td colspan="2">
+              <p>
+                <code class="code">0x000</code>
+              </p>
+              <p>
+                <code class="code">..</code>
+              </p>
+              <p>
+                <code class="code">0x1ff</code>
+              </p>
+            </td><td><a name="aaf2956de603"></a>
+              <p>
+                <a class="link" href="#a3d3a674257f">Bus Divider Block</a>
+              </p>
+            </td></tr><tr><td>
+              <p>Address</p>
+            </td><td>
+              <p>ID</p>
+            </td><td>
+              <p>Name</p>
+            </td></tr><tr><td>
+              <p>
+                <code class="code">0x000</code>
+              </p>
+            </td><td><a name="a881847b2062"></a>
+              <p>BusDelegate0</p>
+            </td><td>
+              <p>
+                <a class="link" href="#af4d3b9d8cfb">Delegated Bus</a>
+              </p>
+            </td></tr><tr><td>
+              <p>
+                <code class="code">0x100</code>
+              </p>
+            </td><td><a name="a6186d42729a"></a>
+              <p>BusDelegate1</p>
+            </td><td>
+              <p>
+                <a class="link" href="#a8935cb8b996">Delegated Bus</a>
+              </p>
+            </td></tr></tbody></table></div></div><br class="table-break"><div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="delegated-bus-busdelegate0"></a>Delegated Bus (BusDelegate0)</h4></div></div></div><div class="table"><a name="d5e107"></a><p class="title"><b>Table&nbsp;1.4.&nbsp;Area of Delegated Bus</b></p><div class="table-contents"><table summary="Area of Delegated Bus" border="1" width="100%"><colgroup><col width="59" class="col1"><col width="640" class="col2"></colgroup><tbody><tr><td colspan="2">
+                <p>Area of Delegated Bus</p>
+              </td></tr><tr><td>
+                <p>
+                  <code class="code">0x000</code>
+                </p>
+                <p>
+                  <code class="code">..</code>
+                </p>
+                <p>
+                  <code class="code">0x0ff</code>
+                </p>
+              </td><td><a name="af4d3b9d8cfb"></a>
+                <p>
+                  <a class="link" href="#a881847b2062">Delegated Bus (BusDelegate0)</a>
+                </p>
+              </td></tr></tbody></table></div></div><br class="table-break"></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="delegated-bus-busdelegate1"></a>Delegated Bus (BusDelegate1)</h4></div></div></div><div class="table"><a name="d5e129"></a><p class="title"><b>Table&nbsp;1.5.&nbsp;Area of Delegated Bus</b></p><div class="table-contents"><table summary="Area of Delegated Bus" border="1" width="100%"><colgroup><col width="59" class="col1"><col width="640" class="col2"></colgroup><tbody><tr><td colspan="2">
+                <p>Area of Delegated Bus</p>
+              </td></tr><tr><td>
+                <p>
+                  <code class="code">0x100</code>
+                </p>
+                <p>
+                  <code class="code">..</code>
+                </p>
+                <p>
+                  <code class="code">0x1ff</code>
+                </p>
+              </td><td><a name="a8935cb8b996"></a>
+                <p>
+                  <a class="link" href="#a6186d42729a">Delegated Bus (BusDelegate1)</a>
+                </p>
+              </td></tr></tbody></table></div></div><br class="table-break"></div></div></div>
+</div>
+</div></body></html>

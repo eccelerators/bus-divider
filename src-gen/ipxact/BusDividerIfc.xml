@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ipxact:component xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>eccelerators.com</ipxact:vendor>
+    <ipxact:library>interface</ipxact:library>
+    <ipxact:name>BusDividerIfc</ipxact:name>
+    <ipxact:version>0.0.1</ipxact:version>
+    <ipxact:memoryMaps>
+        <ipxact:memoryMap>
+            <ipxact:name>BusDividerBlk</ipxact:name>
+            <ipxact:displayName>Bus Divider Block</ipxact:displayName>
+            <ipxact:description>
+			This block defines a basic bus divider e.g. to divide a bus into two busses by using HxS delegates.	 
+            
+            Bus Divider details:
+			 
+			.. figure:: resources/BusDivider.png
+			   :scale: 50
+			   
+			   Bus Catcher details		 	 
+		</ipxact:description>
+            <ipxact:addressBlock>
+                <ipxact:name>BusDelegate0</ipxact:name>
+                <ipxact:displayName>Delegated Bus</ipxact:displayName>
+                <ipxact:description></ipxact:description>
+                <ipxact:baseAddress>0</ipxact:baseAddress>
+                <ipxact:range>256</ipxact:range>
+                <ipxact:width>8</ipxact:width>
+            </ipxact:addressBlock>
+            <ipxact:addressBlock>
+                <ipxact:name>BusDelegate1</ipxact:name>
+                <ipxact:displayName>Delegated Bus</ipxact:displayName>
+                <ipxact:description></ipxact:description>
+                <ipxact:baseAddress>256</ipxact:baseAddress>
+                <ipxact:range>256</ipxact:range>
+                <ipxact:width>8</ipxact:width>
+            </ipxact:addressBlock>
+        </ipxact:memoryMap>
+    </ipxact:memoryMaps>
+</ipxact:component>

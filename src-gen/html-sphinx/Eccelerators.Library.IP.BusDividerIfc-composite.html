@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bus Divider Interface (BusDividerIfc) &#8212; eccelerators-sphinx-sample-configuration  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=f63d8bfa" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=e491ac2d" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to BusDivider’s documentation!" href="index.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>eccelerators-sphinx-sample-configuration  documentation</span></a></h1>
+        <h2 class="heading"><span>Bus Divider Interface (BusDividerIfc)</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="index.html">Welcome to BusDivider’s documentation!</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="bus-divider-interface-busdividerifc">
+<h1>Bus Divider Interface (BusDividerIfc)<a class="headerlink" href="#bus-divider-interface-busdividerifc" title="Link to this heading">¶</a></h1>
+<p>Interface containing a basic Bus Divider block.</p>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Blocks of Bus Divider Interface</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td colspan="3"><p>Blocks of Bus Divider Interface</p></td>
+</tr>
+<tr class="row-even"><td><p>Block Address</p></td>
+<td><p>ID</p></td>
+<td><p>Block Name</p></td>
+</tr>
+<tr class="row-odd"><td><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x000</span></code></div>
+</div>
+</td>
+<td id="a3d3a674257f"><p>BusDividerBlk</p></td>
+<td><p><a class="reference internal" href="#aaf2956de603">Bus Divider Block</a></p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Resets of Bus Divider Interface</span><a class="headerlink" href="#id2" title="Link to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td colspan="2"><p>Resets of Registers of Bus Divider Interface</p></td>
+</tr>
+<tr class="row-even"><td><p>ID</p></td>
+<td><p>Reset Name</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="bus-divider-block-busdividerblk">
+<h2>Bus Divider Block (BusDividerBlk)<a class="headerlink" href="#bus-divider-block-busdividerblk" title="Link to this heading">¶</a></h2>
+<p>This block defines a basic bus divider e.g. to divide a bus into two busses by using HxS delegates.</p>
+<p>Bus Divider details:</p>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="_images/BusDivider.png"><img alt="_images/BusDivider.png" src="_images/BusDivider.png" style="width: 495.5px; height: 294.5px;" /></a>
+<figcaption>
+<p><span class="caption-text">Bus Catcher details</span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Registers or Delegates of Bus Divider Block</span><a class="headerlink" href="#id4" title="Link to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td colspan="3"><p>Registers or Delegates of Bus Divider Block</p></td>
+</tr>
+<tr class="row-even"><td colspan="2"><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x000</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">..</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x1ff</span></code></div>
+</div>
+</td>
+<td id="aaf2956de603"><p><a class="reference internal" href="#a3d3a674257f">Bus Divider Block</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Address</p></td>
+<td><p>ID</p></td>
+<td><p>Name</p></td>
+</tr>
+<tr class="row-even"><td><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x000</span></code></div>
+</div>
+</td>
+<td id="a881847b2062"><p>BusDelegate0</p></td>
+<td><p><a class="reference internal" href="#af4d3b9d8cfb">Delegated Bus</a></p></td>
+</tr>
+<tr class="row-odd"><td><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x100</span></code></div>
+</div>
+</td>
+<td id="a6186d42729a"><p>BusDelegate1</p></td>
+<td><p><a class="reference internal" href="#a8935cb8b996">Delegated Bus</a></p></td>
+</tr>
+</tbody>
+</table>
+<section id="delegated-bus-busdelegate0">
+<h3>Delegated Bus (BusDelegate0)<a class="headerlink" href="#delegated-bus-busdelegate0" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Area of Delegated Bus</span><a class="headerlink" href="#id5" title="Link to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td colspan="2"><p>Area of Delegated Bus</p></td>
+</tr>
+<tr class="row-even"><td><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x000</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">..</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x0ff</span></code></div>
+</div>
+</td>
+<td id="af4d3b9d8cfb"><p><a class="reference internal" href="#a881847b2062">Delegated Bus (BusDelegate0)</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="delegated-bus-busdelegate1">
+<h3>Delegated Bus (BusDelegate1)<a class="headerlink" href="#delegated-bus-busdelegate1" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default" id="id6">
+<caption><span class="caption-text">Area of Delegated Bus</span><a class="headerlink" href="#id6" title="Link to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td colspan="2"><p>Area of Delegated Bus</p></td>
+</tr>
+<tr class="row-even"><td><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x100</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">..</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">0x1ff</span></code></div>
+</div>
+</td>
+<td id="a8935cb8b996"><p><a class="reference internal" href="#a6186d42729a">Delegated Bus (BusDelegate1)</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="index.html">Welcome to BusDivider’s documentation!</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2023, Eccelerators GmbH.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.2.
+    </div>
+  </body>
+</html>
