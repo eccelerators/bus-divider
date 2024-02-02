@@ -1,5 +1,5 @@
 ..
- Copyright (C) 2023 Eccelerators GmbH
+ Copyright (C) 2024 Eccelerators GmbH
 
 ..
  
@@ -11,10 +11,10 @@
  
 
 ..
- HxS Compiler 1.0.19-10671667
+ HxS Compiler v0.0.0-0000000
 
 ..
- Docs Extension for HxS 1.0.18-0b09510c
+ Docs Extension for HxS v0.0.0-0000000
 
 ..
  
@@ -41,7 +41,7 @@
  Author:HxS Compiler
 
 ..
- Date:15 Dec 2023 08:25:51
+ Date:10 Jan 2024 20:50:08
 
 Bus Divider Interface (BusDividerIfc)
 """""""""""""""""""""""""""""""""""""

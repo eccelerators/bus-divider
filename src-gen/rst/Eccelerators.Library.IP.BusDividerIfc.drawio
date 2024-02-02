@@ -1,0 +1,62 @@
+<mxfile compressed="false" pages="3" type="device">
+    <diagram id="9898c2d4-3af5-40c6-bdbf-630a8ee721c7" name="Complete">
+        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="db22384c-53a0-403b-8794-5d8e017a1824" parent="0" value="Foreground"/>
+                <mxCell id="47564106-fa7a-40d7-a29e-a936841de878" parent="db22384c-53a0-403b-8794-5d8e017a1824" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#253F8E;fontSize=9;fontColor=#FFFFFF;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDividerIfc&lt;br&gt;&lt;i&gt;Interface&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="110.0" width="560.0" x="10.0" y="10.0"/>
+                </mxCell>
+                <mxCell id="36a6056a-6606-4760-b763-f06375fca3bd" parent="db22384c-53a0-403b-8794-5d8e017a1824" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CCCC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDividerBlk&lt;br&gt;&lt;i&gt;Block&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="90.0" width="470.0" x="90.0" y="20.0"/>
+                </mxCell>
+                <mxCell id="b8ac0090-6994-4cbb-b401-11e4d276373e" parent="db22384c-53a0-403b-8794-5d8e017a1824" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDelegate0&lt;br&gt;&lt;i&gt;Delegate&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="380.0" x="170.0" y="30.0"/>
+                </mxCell>
+                <mxCell id="71afacb2-b1ae-4197-bd47-2b66f7e49fc5" parent="db22384c-53a0-403b-8794-5d8e017a1824" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDelegate1&lt;br&gt;&lt;i&gt;Delegate&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="380.0" x="170.0" y="70.0"/>
+                </mxCell>
+                <mxCell id="14c28496-8cab-4740-bbea-9a19121eaefb" parent="db22384c-53a0-403b-8794-5d8e017a1824" style="fillColor=none;verticalAlign=middle;labelBorderColor=none;fontSize=20;align=center;fontStyle=1;strokeColor=none;fontColor=#F58828;rounded=0;whiteSpace=wrap;html=1" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;HxS&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="50.0" x="10.0" y="90.0"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="f41af688-6e0a-468f-8491-a75f374cb763" name="Slice0">
+        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="61254c7d-afa7-41c8-90cc-95930d0140f1" parent="0" value="Foreground"/>
+                <mxCell id="1ee30a63-7aae-45da-b41e-e599d91a829f" parent="61254c7d-afa7-41c8-90cc-95930d0140f1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#253F8E;fontSize=9;fontColor=#FFFFFF;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDividerIfc&lt;br&gt;&lt;i&gt;Interface&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="110.0" width="560.0" x="10.0" y="10.0"/>
+                </mxCell>
+                <mxCell id="0e355b2f-3059-4fe5-a55d-4abf32ae6e3d" parent="61254c7d-afa7-41c8-90cc-95930d0140f1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CCCC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDividerBlk&lt;br&gt;&lt;i&gt;Block&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="90.0" width="470.0" x="90.0" y="20.0"/>
+                </mxCell>
+                <mxCell id="88a8c81d-0130-431c-b04d-861290b885a3" parent="61254c7d-afa7-41c8-90cc-95930d0140f1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDelegate0&lt;br&gt;&lt;i&gt;Delegate&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="380.0" x="170.0" y="30.0"/>
+                </mxCell>
+                <mxCell id="1310431d-f9e1-4718-900f-8b666d1c988b" parent="61254c7d-afa7-41c8-90cc-95930d0140f1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;fontSize=9;fontColor=#000000;align=left;strokeColor=none" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;BusDelegate1&lt;br&gt;&lt;i&gt;Delegate&lt;/i&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="380.0" x="170.0" y="70.0"/>
+                </mxCell>
+                <mxCell id="1a260b62-b573-44fb-82ca-e07c8ac9549b" parent="61254c7d-afa7-41c8-90cc-95930d0140f1" style="fillColor=none;verticalAlign=middle;labelBorderColor=none;fontSize=20;align=center;fontStyle=1;strokeColor=none;fontColor=#F58828;rounded=0;whiteSpace=wrap;html=1" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;HxS&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="30.0" width="50.0" x="10.0" y="90.0"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="97ab5a93-da45-4ca2-8e88-2a218e3dbdf4" name="Comments">
+        <mxGraphModel arrows="1" connect="1" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageScale="1" shadow="0" tooltips="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="071ed5cc-78ef-4f38-a00c-224a27dd7be8" parent="0" value="Foreground"/>
+                <mxCell id="3c0ecea1-b459-42c0-9c2b-aec740f6056e" parent="071ed5cc-78ef-4f38-a00c-224a27dd7be8" style="fillColor=none;verticalAlign=middle;labelBorderColor=none;fontSize=20;align=center;fontStyle=1;strokeColor=none;fontColor=#000000;rounded=0;whiteSpace=wrap;html=1" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Copyright (C) 2024 Eccelerators GmbH&#10;&#10;This code was generated by:&#10;&#10;HxS Compiler v0.0.0-0000000&#10;Docs Extension for HxS v0.0.0-0000000&#10;&#10;Further information at https://eccelerators.com/hxs&#10;&#10;Changes to this file may cause incorrect behavior and will be lost if the&#10;code is regenerated.&#10;&#10;&#10;&lt;/p&gt;" vertex="1">
+                    <mxGeometry as="geometry" height="500.0" width="1000.0" x="10.0" y="10.0"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
